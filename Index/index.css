@@ -1,81 +1,162 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-body{
-    font-family: 'Work Sans', sans-serif;
+body {
+  font-family: "Work Sans", sans-serif;
 }
-#navbar{
-    background-color: rgb(184, 183, 183);
+#navbar {
+  background-color: rgb(184, 183, 183);
 }
-.nav-list{
-    padding: 10px;
-    font-size: 1.2em;
+.nav-list {
+  padding: 15px 10px 15px 30px;
+  font-size: 1.2em;
 }
-header{
-    margin: 5% 0 0 0;
+header {
+  margin: 180px 0 180px 0;
 }
-.heading{
-    text-align: center;
-    font-size: 3.5em;
-    font-weight: 600;
-    margin: 1em 0 0.3em 0;
+.heading {
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 600;
+  margin: 1em 0 0.3em 0;
 }
-.tag-line{
-    text-align: center;
-    font-size: 1.5em;
-    color: rgb(75, 75, 75);
+.tag-line {
+  text-align: center;
+  font-size: 1.5em;
+  color: rgb(75, 75, 75);
 }
-.projects-container{
-    background-color: grey;
-    margin: 3em 0 0 0;
+.projects-container {
+  background-color: grey;
+  margin: 3em 0 0 0;
 }
-.projects-header{
-    font-weight: 500;
-    font-size: 2em;
-    padding-top: 0.5em;
-    text-align: center;
+.projects-header {
+  font-weight: 500;
+  font-size: 2em;
+  padding-top: 0.5em;
+  text-align: center;
 }
-#projects-container-image{
-    height: 25em;
-    width: 25em;
-    margin-left: 25%;
+#projects-container-image {
+  height: 25em;
+  width: 25em;
+  margin-left: 25%;
 }
