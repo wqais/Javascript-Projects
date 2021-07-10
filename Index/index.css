@@ -129,14 +129,15 @@ body {
 }
 .nav-list {
   padding: 15px 10px 15px 30px;
-  font-size: 1.2em;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 header {
   margin: 180px 0 180px 0;
 }
 .heading {
   text-align: center;
-  font-size: 3.5em;
+  font-size: 3em;
   font-weight: 600;
   margin: 1em 0 0.3em 0;
 }
@@ -148,15 +149,32 @@ header {
 .projects-container {
   background-color: grey;
   margin: 3em 0 0 0;
+  padding: 10px 20px 40px 20px;
 }
 .projects-header {
   font-weight: 500;
-  font-size: 2em;
-  padding-top: 0.5em;
+  font-size: 2.2em;
+  padding-top: 35px;
   text-align: center;
+  margin-bottom: 10px;
+}
+.projects-content {
+  display: flex;
+}
+.projects-content ul {
+  margin-top: 74px;
+}
+.projects-content ul a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #0e0e0f;
+}
+.projects-content ul li {
+  font-size: 23px;
+  margin: 25px 0 0 10px;
 }
 #projects-container-image {
   height: 25em;
-  width: 25em;
-  margin-left: 25%;
+  width: 30em;
+  margin-left: 280px;
 }
