@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+nav {
+  background-color: #f5f5f5;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: large;
+}
+
+h1 {
+  margin: 0;
+  color: #0fb7ea;
+}
+
+span {
+  color: #3e4143;
+}
+
+.nav-toggle {
+  font-size: 1.5rem;
+  color: #3e4143;
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.nav-toggle:hover {
+  transform: rotate(90deg);
+  color: #0fb7ea;
+  transition-duration: 0.5s;
+}
+
+.links {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+.links a {
+  color: hsl(209, 34%, 30%);
+  font-size: 1.2em;
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: var(--transition);
+  transition-duration: 0.5s;
+}
+
+.links a:hover {
+  background: hsl(205, 86%, 81%);
+  color: hsl(205, 72%, 37%);
+  padding-left: 1.2em;
+  font-size: 1.2em;
+}
+
+.links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+  transition-duration: 0.3s;
+}
+.show-links {
+  height: 10em;
+  padding: 0 0 2.5em 0;
+}
+
+.icons {
+  display: none;
+}
+
+@media screen and (min-width: 900px) {
+  .navbar {
+    max-width: 80em;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em;
+  }
+
+  .nav-header {
+    padding: 0 0 0 1rem;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .links {
+    height: auto;
+    display: flex;
+  }
+
+  .links li {
+    list-style-type: none;
+    font-weight: normal;
+    color: hsl(209, 34%, 30%);
+    margin-left: 1em;
+  }
+
+  .links a {
+    padding: 0;
+    margin: 0 0.5em;
+    text-decoration: none;
+  }
+
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+    color: hsl(205, 100%, 60%);
+  }
+
+  .show-links {
+    padding: 0;
+  }
+
+  .icons {
+    padding: 0;
+    padding-right: 10px;
+    display: flex;
+  }
+
+  .icons li {
+    list-style-type: none;
+  }
+
+  .icons a {
+    text-decoration: none;
+    margin: 0 0.3sem;
+    color: hsl(205, 100%, 60%);
+    transition: var(--transition);
+    margin-right: 20px;
+  }
+
+  .icons a:hover {
+    color: hsl(209, 34%, 30%);
+  }
+}
