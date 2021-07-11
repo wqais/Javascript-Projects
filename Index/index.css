@@ -170,11 +170,18 @@ header {
   color: #0e0e0f;
 }
 .projects-content ul li {
-  font-size: 23px;
+  font-size: 1.5em;
   margin: 25px 0 0 10px;
 }
 #projects-container-image {
   height: 25em;
   width: 30em;
   margin-left: 280px;
+}
+#view-projects-btn{
+  /* background-color: #5c95ff; */
+  background-color: #016fb9;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  border-radius: 3px;
 }
