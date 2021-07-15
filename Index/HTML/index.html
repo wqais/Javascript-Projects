@@ -18,13 +18,13 @@
     <nav id="navbar">
       <span id="nav-heading">JS Projects</span>
       <ul id="nav-list">
+        <li class="nav-list-items nav-content">
+          <a href="/Index/HTML/about.html">about</a>
+        </li>
         <li class="nav-list-items nav-github">
           <a href="https://github.com/wqais/Javascript-Projects" target="_blank"
             ><img src="/Assets/github_logo.svg"
           /></a>
-        </li>
-        <li class="nav-list-items nav-content">
-          <a href="/Index/HTML/about.html">About</a>
         </li>
       </ul>
     </nav>
@@ -60,19 +60,91 @@
     </div>
 
     <!--FEEDBACK SECTION-->
+    <div class="feedback-section">
+      <form action="action">
+        <div class="feedback">
+          <div class="your">
+            <!-- <label for="fname">Name</label> -->
+            <div class="name">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name.."
+              />
+            </div>
+
+            <!-- <label for="email">email</label> -->
+            <div class="email">
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Your email.."
+              />
+            </div>
+          </div>
+
+          <!-- <label for="subject">feedback</label> -->
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write your feedback.."
+            style="height: 100px"
+          ></textarea>
+        </div>
+        <div class="btn">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
 
     <!--FOOTER-->
     <footer id="footer">
       <section class="left-info footer-section">
-        <img src="/Assets/Qais.jpg" alt="Qais' photo" class="creator-photo" />
-        <span class="creator-info">Qais Warekar</span>
+        <div class="personal">
+          <div class="img">
+            <img
+              src="/Assets/Qais.jpg"
+              alt="Qais' photo"
+              class="creator-photo"
+            />
+          </div>
+          <div class="info">
+            <p>
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              libero sint nam eaque quis nemo error alias eveniet facilis
+              impedit."
+            </p>
+            <span class="creator-info">~Qais Warekar</span>
+          </div>
+        </div>
         <!-- links -->
       </section>
+
       <section class="right-info footer-section">
-        <img src="/Assets/Deep.jpg" alt="Deep's photo" class="creator-photo" />
-        <span class="creator-info">Deep Chavan</span>
+        <div class="personal">
+          <div class="img">
+            <img
+              src="/Assets/Deep.jpg"
+              alt="Deep' photo"
+              class="creator-photo"
+            />
+          </div>
+          <div class="info">
+            <p>
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              libero sint nam eaque quis nemo error alias eveniet facilis
+              impedit."
+            </p>
+            <span class="creator-info">~Deep Chavan</span>
+          </div>
+        </div>
         <!-- links -->
       </section>
     </footer>
+    <section class="project-name">
+      <h1>JS project</h1>
+    </section>
   </body>
 </html>
